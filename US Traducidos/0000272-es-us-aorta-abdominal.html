@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta content="US Abdominal Aorta" name="dcterms.title" />
+        <meta content="US Abdominal Aorta report template" name="dcterms.description" />
+        <meta content="http://www.radreport.org/template/0000272" name="dcterms.identifier" />
+        <meta content="en" name="dcterms.language" />
+        <meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type" />
+        <meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher" />
+        <meta content="May be used gratis, subject to license agreement" name="dcterms.rights" />
+        <meta content="http://www.radreport.org/license.pdf" name="dcterms.license" />
+        <meta content="2013-12-10" name="dcterms.date" />
+        <meta content="Kahn CE Jr" name="dcterms.creator" />
+        <meta content="Kahn CE Jr [editor]" name="dcterms.contributor" />
+        <link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+		<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+        <script type="text/xml">
+		<!--
+		<template_attributes>
+		<top-level-flag>0</top-level-flag>
+		<status>ACTIVE</status>
+		<coded_content></coded_content>
+		</template_attributes>
+		-->
+        </script>
+        <title>US Aorta Abdominal</title>
+    </head>
+    <body>
+        <section data-section-name="Procedure">
+            <header class="level1">US Aorta Abdominal</header>
+        </section>
+        <section data-section-name="Clinical information">
+            <header class="level1">Motivo de Estudio</header>
+            <p>
+                <textarea id="T272_1" name="Clinical information"></textarea>
+            </p>
+        </section>
+        <section data-section-name="Comparison">
+            <header class="level1">Comparación</header>
+            <p>
+                <textarea id="T272_2" name="Comparison">Ninguna.</textarea>
+            </p>
+        </section>
+        <section data-section-name="Findings">
+            <header class="level1">Hallazgos</header>
+
+            <section data-section-name="Abdominal aorta">
+                <header class="level2">Aorta Abdominal</header>
+                <p>
+                    <label>Proximal:</label>
+                    <input type="number" id="T272_3" name="Proximal aorta diameter" data-field-units="cm" /> <label>cm</label>
+				</p>
+                <p>
+                    <label>Media:</label>
+                    <input type="number" id="T272_4" name="Mid aorta diameter" data-field-units="cm" /> <label>cm</label>
+				</p>
+                <p><label>Distal:</label>
+                    <input type="number" id="T272_5" name="Distal aorta diameter" data-field-units="cm" /> <label>cm</label>
+				</p>
+            </section>
+
+            <section data-section-name="Common iliac arteries">
+                <header class="level2">Arterias Ilíacas Comunes</header>
+                <p>
+                    <label>Arteria Ilíaca Común Derecha:</label>
+                    <input type="number" id="T272_6" name="Right iliac diameter" data-field-units="cm" /> <label>cm</label> </p>
+                <p>
+                    <label>Arteria Ilíaca Común Izquierda:</label>
+                    <input type="number" id="T272_7" name="Left iliac diameter" data-field-units="cm" /> <label>cm</label> </p>
+            </section>
+
+            <section data-section-name="Kidneys">
+                <header class="level2">Riñones</header>
+                <p>
+                    <label>Morfología:</label>
+                    <input type="text" id="T272_8" name="Kidney morphology" style="width:40em;" value="Normal in size and echogenicity."/>
+                </p>
+                <p>
+                    <label>Tamaño Riñón Derecho:</label>
+                    <input type="number" id="T272_9" name="Right kidney size" data-field-units="cm" /> <label>cm</label> </p>
+                <p>
+                    <label>Tamaño Riñón Izquierdo:</label>
+                    <input type="number" id="T272_10" name="Left kidney size" data-field-units="cm" /> <label>cm</label> </p>
+            </section>
+
+            <section data-section-name="Free fluid">
+                <header class="level2">Liquido Libre</header>
+                <p>
+                    <input type="text" id="T272_11" name="Free fluid" value="None." />
+                </p>
+            </section>
+        </section>
+
+        <section data-section-name="Impression">
+            <header class="level1">Impresión Diagnóstica</header>
+            <p>
+                <textarea id="T272_12" name="Impression">Sin evidencias de aneurisma en la aorta.</textarea>
+            </p>
+        </section>
+    </body>
+</html>

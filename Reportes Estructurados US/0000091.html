@@ -1,0 +1,1777 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="US Peds Renal Doppler" name="dcterms.title"/>
+<meta content="US Peds Renal Doppler template :: Authored by Meyer JS, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000091" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-12" name="dcterms.date"/>
+<meta content="Meyer JS, et al." name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Society for Pediatric Radiology (SPR)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>1</top-level-flag>
+<status>ACTIVE</status>
+<term>
+<code_meaning>child</code_meaning>
+<code_value>RID5641</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>kidney</code_meaning>
+<code_value>RID205</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>ultrasound</code_meaning>
+<code_value>RID10326</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<coded_content>
+<entry ORIGTXT="T91_2">
+<term>
+<code_meaning>procedure</code_meaning>
+<code_value>RID1559</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_3">
+<term>
+<code_meaning>ultrasound</code_meaning>
+<code_value>RID10326</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_4">
+<term>
+<code_meaning>kidney</code_meaning>
+<code_value>RID205</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_5">
+<term>
+<code_meaning>urinary bladder</code_meaning>
+<code_value>RID237</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_6">
+<term>
+<code_meaning>imaging technique</code_meaning>
+<code_value>RID28482</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>imaging technique modifier</code_meaning>
+<code_value>RID28642</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_7">
+<term>
+<code_meaning>clinical information</code_meaning>
+<code_value>RID13166</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_9">
+<term>
+<code_meaning>comparison</code_meaning>
+<code_value>RID28483</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_10">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_11">
+<term>
+<code_meaning>observations section</code_meaning>
+<code_value>RID28486</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_12">
+<term>
+<code_meaning>kidney</code_meaning>
+<code_value>RID205</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_13">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_14">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_15">
+<term>
+<code_meaning>right kidney</code_meaning>
+<code_value>RID29662</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_16">
+<term>
+<code_meaning>absent</code_meaning>
+<code_value>RID28473</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_17">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_18">
+<term>
+<code_meaning>size descriptor</code_meaning>
+<code_value>RID5772</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_19">
+<term>
+<code_meaning>size descriptor</code_meaning>
+<code_value>RID5772</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Length (attribute)</code_meaning>
+<code_value>410667008</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.96</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_20">
+<term>
+<code_meaning>transverse</code_meaning>
+<code_value>RID5854</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_21">
+<term>
+<code_meaning>anterior</code_meaning>
+<code_value>RID5818</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>posterior</code_meaning>
+<code_value>RID5819</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_22">
+<term>
+<code_meaning>morphology</code_meaning>
+<code_value>RID28825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_23">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_24">
+<term>
+<code_meaning>anatomic sub-part</code_meaning>
+<code_value>RID5945</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>anatomical structure</code_meaning>
+<code_value>RID13390</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_25">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_26">
+<term>
+<code_meaning>contour</code_meaning>
+<code_value>RID5957</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_27">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_28">
+<term>
+<code_meaning>size descriptor</code_meaning>
+<code_value>RID5772</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_29">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_30">
+<term>
+<code_meaning>calculus</code_meaning>
+<code_value>RID4994</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_31">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_32">
+<term>
+<code_meaning>kidney</code_meaning>
+<code_value>RID205</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>mass</code_meaning>
+<code_value>RID3874</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_33">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_34">
+<term>
+<code_meaning>focal</code_meaning>
+<code_value>RID5702</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>pathophysiologic process modifier</code_meaning>
+<code_value>RID7466</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>parenchyma of kidney</code_meaning>
+<code_value>RID209</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_35">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_36">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_37">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_38">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_39">
+<term>
+<code_meaning>hydronephrosis</code_meaning>
+<code_value>RID34393</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_40">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_41">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_42">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_43">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_44">
+<term>
+<code_meaning>renal artery</code_meaning>
+<code_value>RID936</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_45">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_46">
+<term>
+<code_meaning>morphology</code_meaning>
+<code_value>RID28825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_47">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_48">
+<term>
+<code_meaning>velocity</code_meaning>
+<code_value>RID28700</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>systolic flow</code_meaning>
+<code_value>RID5940</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>peak flow</code_meaning>
+<code_value>RID5942</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_49">
+<term>
+<code_meaning>ostium</code_meaning>
+<code_value>RID5977</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_50">
+<term>
+<code_meaning>proximal</code_meaning>
+<code_value>RID5829</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_51">
+<term>
+<code_meaning>middle</code_meaning>
+<code_value>RID5974</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_52">
+<term>
+<code_meaning>distal</code_meaning>
+<code_value>RID5830</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_53">
+<term>
+<code_meaning>Systemic vascular resistance index (observable entity)</code_meaning>
+<code_value>276900001</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.96</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Systemic vascular Resistance index</code_meaning>
+<code_value>8837-7</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.1</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_54">
+<term>
+<code_meaning>imaging observation characteristic</code_meaning>
+<code_value>RID7464</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_57">
+<term>
+<code_meaning>renal vein</code_meaning>
+<code_value>RID1184</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_58">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_59">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_60">
+<term>
+<code_meaning>occluded</code_meaning>
+<code_value>RID5894</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_61">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_62">
+<term>
+<code_meaning>Waveform (attribute)</code_meaning>
+<code_value>260893003</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.96</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_63">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_64">
+<term>
+<code_meaning>left kidney</code_meaning>
+<code_value>RID29663</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_65">
+<term>
+<code_meaning>absent</code_meaning>
+<code_value>RID28473</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_66">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_67">
+<term>
+<code_meaning>size descriptor</code_meaning>
+<code_value>RID5772</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_68">
+<term>
+<code_meaning>size descriptor</code_meaning>
+<code_value>RID5772</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Length (attribute)</code_meaning>
+<code_value>410667008</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.96</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_69">
+<term>
+<code_meaning>transverse</code_meaning>
+<code_value>RID5854</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_70">
+<term>
+<code_meaning>anterior</code_meaning>
+<code_value>RID5818</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>posterior</code_meaning>
+<code_value>RID5819</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_71">
+<term>
+<code_meaning>morphology</code_meaning>
+<code_value>RID28825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_72">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_73">
+<term>
+<code_meaning>anatomic sub-part</code_meaning>
+<code_value>RID5945</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>anatomical structure</code_meaning>
+<code_value>RID13390</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_74">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_75">
+<term>
+<code_meaning>contour</code_meaning>
+<code_value>RID5957</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_76">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_77">
+<term>
+<code_meaning>size descriptor</code_meaning>
+<code_value>RID5772</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_78">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_79">
+<term>
+<code_meaning>calculus</code_meaning>
+<code_value>RID4994</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_80">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_81">
+<term>
+<code_meaning>kidney</code_meaning>
+<code_value>RID205</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>mass</code_meaning>
+<code_value>RID3874</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_82">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_83">
+<term>
+<code_meaning>focal</code_meaning>
+<code_value>RID5702</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>pathophysiologic process modifier</code_meaning>
+<code_value>RID7466</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>parenchyma of kidney</code_meaning>
+<code_value>RID209</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_84">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_85">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_86">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_87">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_88">
+<term>
+<code_meaning>hydronephrosis</code_meaning>
+<code_value>RID34393</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_89">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_90">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_91">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_92">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_93">
+<term>
+<code_meaning>renal artery</code_meaning>
+<code_value>RID936</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_94">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_95">
+<term>
+<code_meaning>morphology</code_meaning>
+<code_value>RID28825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_96">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_97">
+<term>
+<code_meaning>velocity</code_meaning>
+<code_value>RID28700</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>systolic flow</code_meaning>
+<code_value>RID5940</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>peak flow</code_meaning>
+<code_value>RID5942</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_98">
+<term>
+<code_meaning>ostium</code_meaning>
+<code_value>RID5977</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_99">
+<term>
+<code_meaning>proximal</code_meaning>
+<code_value>RID5829</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_100">
+<term>
+<code_meaning>middle</code_meaning>
+<code_value>RID5974</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_101">
+<term>
+<code_meaning>distal</code_meaning>
+<code_value>RID5830</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_102">
+<term>
+<code_meaning>Systemic vascular resistance index (observable entity)</code_meaning>
+<code_value>276900001</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.96</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Systemic vascular Resistance index</code_meaning>
+<code_value>8837-7</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.1</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_103">
+<term>
+<code_meaning>imaging observation characteristic</code_meaning>
+<code_value>RID7464</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_106">
+<term>
+<code_meaning>renal vein</code_meaning>
+<code_value>RID1184</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_107">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_108">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_109">
+<term>
+<code_meaning>occluded</code_meaning>
+<code_value>RID5894</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_110">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_111">
+<term>
+<code_meaning>Waveform (attribute)</code_meaning>
+<code_value>260893003</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.96</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_112">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_113">
+<term>
+<code_meaning>right ureter</code_meaning>
+<code_value>RID30844</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_114">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_115">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_116">
+<term>
+<code_meaning>dilated</code_meaning>
+<code_value>RID5786</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_117">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_118">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_119">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_120">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_121">
+<term>
+<code_meaning>left ureter</code_meaning>
+<code_value>RID30845</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_122">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_123">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_124">
+<term>
+<code_meaning>dilated</code_meaning>
+<code_value>RID5786</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_125">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_126">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_127">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_128">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_129">
+<term>
+<code_meaning>urinary bladder</code_meaning>
+<code_value>RID237</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_130">
+<term>
+<code_meaning>distension</code_meaning>
+<code_value>RID3793</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_131">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_132">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_133">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_134">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_135">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_136">
+<term>
+<code_meaning>wall</code_meaning>
+<code_value>RID5987</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>thickening</code_meaning>
+<code_value>RID28509</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_137">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_138">
+<term>
+<code_meaning>focal</code_meaning>
+<code_value>RID5702</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_139">
+<term>
+<code_meaning>diffuse</code_meaning>
+<code_value>RID5701</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_140">
+<term>
+<code_meaning>abdominal aorta</code_meaning>
+<code_value>RID905</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_141">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_142">
+<term>
+<code_meaning>inferior vena cava</code_meaning>
+<code_value>RID1178</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_143">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_144">
+<term>
+<code_meaning>absent</code_meaning>
+<code_value>RID28473</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_145">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_146">
+<term>
+<code_meaning>size descriptor</code_meaning>
+<code_value>RID5772</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_147">
+<term>
+<code_meaning>size descriptor</code_meaning>
+<code_value>RID5772</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Length (attribute)</code_meaning>
+<code_value>410667008</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.96</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_148">
+<term>
+<code_meaning>transverse</code_meaning>
+<code_value>RID5854</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_149">
+<term>
+<code_meaning>anterior</code_meaning>
+<code_value>RID5818</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>posterior</code_meaning>
+<code_value>RID5819</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_150">
+<term>
+<code_meaning>morphology</code_meaning>
+<code_value>RID28825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_151">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_152">
+<term>
+<code_meaning>anatomic sub-part</code_meaning>
+<code_value>RID5945</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>anatomical structure</code_meaning>
+<code_value>RID13390</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_153">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_154">
+<term>
+<code_meaning>contour</code_meaning>
+<code_value>RID5957</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_155">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_156">
+<term>
+<code_meaning>size descriptor</code_meaning>
+<code_value>RID5772</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_157">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_158">
+<term>
+<code_meaning>calculus</code_meaning>
+<code_value>RID4994</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_159">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_160">
+<term>
+<code_meaning>kidney</code_meaning>
+<code_value>RID205</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>mass</code_meaning>
+<code_value>RID3874</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_161">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_162">
+<term>
+<code_meaning>focal</code_meaning>
+<code_value>RID5702</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>pathophysiologic process modifier</code_meaning>
+<code_value>RID7466</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>parenchyma of kidney</code_meaning>
+<code_value>RID209</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_163">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_164">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_165">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_166">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_167">
+<term>
+<code_meaning>hydronephrosis</code_meaning>
+<code_value>RID34393</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_168">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_169">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_170">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_171">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_172">
+<term>
+<code_meaning>renal artery</code_meaning>
+<code_value>RID936</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_173">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_174">
+<term>
+<code_meaning>morphology</code_meaning>
+<code_value>RID28825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_175">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_176">
+<term>
+<code_meaning>velocity</code_meaning>
+<code_value>RID28700</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>systolic flow</code_meaning>
+<code_value>RID5940</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>peak flow</code_meaning>
+<code_value>RID5942</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_177">
+<term>
+<code_meaning>ostium</code_meaning>
+<code_value>RID5977</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_178">
+<term>
+<code_meaning>proximal</code_meaning>
+<code_value>RID5829</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_179">
+<term>
+<code_meaning>middle</code_meaning>
+<code_value>RID5974</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_180">
+<term>
+<code_meaning>distal</code_meaning>
+<code_value>RID5830</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_181">
+<term>
+<code_meaning>Systemic vascular resistance index (observable entity)</code_meaning>
+<code_value>276900001</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.96</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Systemic vascular Resistance index</code_meaning>
+<code_value>8837-7</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.1</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_182">
+<term>
+<code_meaning>imaging observation characteristic</code_meaning>
+<code_value>RID7464</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_185">
+<term>
+<code_meaning>renal vein</code_meaning>
+<code_value>RID1184</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_186">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_187">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_188">
+<term>
+<code_meaning>occluded</code_meaning>
+<code_value>RID5894</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_189">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_190">
+<term>
+<code_meaning>Waveform (attribute)</code_meaning>
+<code_value>260893003</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.96</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_191">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_192">
+<term>
+<code_meaning>not seen</code_meaning>
+<code_value>RID38584</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_193">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_194">
+<term>
+<code_meaning>dilated</code_meaning>
+<code_value>RID5786</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_195">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_196">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_197">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_198">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_199">
+<term>
+<code_meaning>impression section</code_meaning>
+<code_value>RID13170</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_200">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_201">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_202">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_203">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_204">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T91_205">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>US Peds Renal Doppler</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">US Peds Renal Doppler</header>
+<p>
+<textarea id="T91_2" name="Procedure">Complete renal real-time scan with image documentation. Renal vessels and abdominal aorta are evaluated color-flow and spectral waveform analysis Doppler. </textarea>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T91_7" name="Clinical information">Hypertension. </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T91_9" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Kidney length for age">
+<header class="level2">Kidney length for age</header>
+<p>
+<label for="T91_13">Mean +/- Standard deviation: </label>
+<input type="number" id="T91_13" name="Mean" data-field-units="cm" min="0" max=""/>
+<label for="T91_14">cm +/-</label>
+<input type="number" id="T91_14" name="Stardard deviation" data-field-units="cm" min="" max=""/>
+<label for="T91_14">cm</label>
+</p>
+</section>
+
+<section data-section-name="Right kidney">
+<header class="level2">Right kidney</header>
+<p>
+<label for="T91_15">Size: </label>
+<input type="text" id="T91_15" name="Right kidney size" value=""/> <label for="T91_15">cm</label>
+</p>
+<p>
+<label for="T91_22">Morphology:</label>
+<input type="text" id="T91_22" name="Morphology" value="The kidney is normal in location, contour and length. There is no stone or renal mass. "/>
+</p>
+<p>
+<label for="T91_34">Focal parenchymal thinning: </label>
+<select id="T91_34" name="Focal parenchymal thinning">
+<option id="T91_35" name="None" value="None" selected>None</option>
+<option id="T91_36" name="Mild" value="Mild">Mild</option>
+<option id="T91_37" name="Moderate" value="Moderate">Moderate</option>
+<option id="T91_38" name="Severe" value="Severe">Severe</option>
+</select>
+</p>
+<p>
+<label for="T91_39">Hydronephrosis: </label>
+<select id="T91_39" name="Hydronephrosis">
+<option id="T91_40" name="None" value="None" selected>None</option>
+<option id="T91_41" name="Mild" value="Mild">Mild</option>
+<option id="T91_42" name="Moderate" value="Moderate">Moderate</option>
+<option id="T91_43" name="Severe" value="Severe">Severe</option>
+</select>
+</p>
+<p>Main renal artery peak systolic velocity: </p>
+<p>
+<label for="T91_49">Ostium:</label>
+<input type="number" id="T91_49" name="Ostium" data-field-units="cm/s" min="0" max=""/> <label>cm/s</label>
+</p>
+<p>
+<label for="T91_50">Proximal:</label>
+<input type="number" id="T91_50" name="Proximal" data-field-units="cm/s" min="0" max=""/> <label>cm/s</label>
+</p>
+<p>
+<label for="T91_51">Mid:</label>
+<input type="number" id="T91_51" name="Mid" data-field-units="cm/s" min="0" max=""/> <label>cm/s</label>
+</p>
+<p>
+<label for="T91_52">Distal:</label>
+<input type="number" id="T91_52" name="Distal" data-field-units="cm/s" min="0" max=""/> <label>cm/s</label>
+</p>
+<p>
+<label for="T91_53">Resistance index: </label>
+<input type="number" id="T91_55" name="Resistance index low" value=""/>
+<label for="T91_56">to</label>
+<input type="number" id="T91_56" name="Resistance index high" value=""/>
+</p>
+<p>
+<label for="T91_57">Main renal vein: </label>
+<input type="text" id="T91_57" name="Main renal vein" value="The main renal vein is patent and demonstrates a normal waveform. "/>
+</p>
+</section>
+
+<section data-section-name="Left kidney">
+<header class="level2">Left kidney</header>
+<p>
+<label for="T91_67">Size: </label>
+<input type="text" id="T91_67" name="Left kidney size" value=""/> <label>cm</label>
+</p>
+<p>
+<label for="T91_71">Morphology:</label>
+<input type="text" id="T91_71" name="Morphology" value="The kidney is normal in location, contour and length. There is no stone or renal mass. "/>
+</p>
+
+<p>
+<label for="T91_83">Focal parenchymal thinning: </label>
+<select id="T91_83" name="Focal parenchymal thinning">
+<option id="T91_84" name="None" value="None" selected>None</option>
+<option id="T91_85" name="Mild" value="Mild">Mild</option>
+<option id="T91_86" name="Moderate" value="Moderate">Moderate</option>
+<option id="T91_87" name="Severe" value="Severe">Severe</option>
+</select>
+</p>
+<p>
+<label for="T91_88">Hydronephrosis: </label>
+<select id="T91_88" name="Hydronephrosis">
+<option id="T91_89" name="None" value="None" selected>None</option>
+<option id="T91_90" name="Mild" value="Mild">Mild</option>
+<option id="T91_91" name="Moderate" value="Moderate">Moderate</option>
+<option id="T91_92" name="Severe" value="Severe">Severe</option>
+</select>
+</p>
+<p>Main renal artery peak systolic velocity:</p>
+<p>
+<label for="T91_98">Ostium:</label>
+<input type="number" id="T91_98" name="Ostium" data-field-units="cm/s" min="0" max=""/> <label>cm/s</label>
+</p>
+<p>
+<label for="T91_99">Proximal:</label>
+<input type="number" id="T91_99" name="Proximal" data-field-units="cm/s" min="0" max=""/> <label>cm/s</label>
+</p>
+<p>
+<label for="T91_100">Mid:</label>
+<input type="number" id="T91_100" name="Mid" data-field-units="cm/s" min="0" max=""/> <label>cm/s</label>
+</p>
+<p>
+<label for="T91_101">Distal:</label>
+<input type="number" id="T91_101" name="Distal" data-field-units="cm/s" min="0" max=""/> <label>cm/s</label>
+</p>
+<p>
+<label for="T91_104">Resistance index: </label>
+<input type="number" id="T91_104" name="Resistance index low" value=""/>
+<label for="T91_105">to</label>
+<input type="number" id="T91_105" name="Resistance index high" value=""/>
+</p>
+<p>
+<label for="T91_106">Main renal vein: </label>
+<input type="text" id="T91_106" name="Main renal vein" value="The main renal vein is patent and demonstrates a normal waveform. "/>
+</p>
+</section>
+<section data-section-name="Ureters">
+<header class="level2">Ureters</header>
+<p>
+<textarea id="T91_112" name="Ureters">Normal. </textarea>
+</p>
+</section>
+<section data-section-name="Urinary bladder">
+<header class="level2">Urinary bladder</header>
+<p>
+<textarea id="T91_129" name="Urinary bladder" value="">Normal. No distension or wall thickening. </textarea>
+</p>
+</section>
+<section data-section-name="Abdominal aorta and IVC">
+<header class="level2">Abdominal aorta and IVC</header>
+<p>
+<textarea id="T91_130" name="Abdominal aorta and IVC" value="">Normal. </textarea>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T91_199" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

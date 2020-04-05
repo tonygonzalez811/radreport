@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="US Pelvis" name="dcterms.title"/>
+<meta content="US Pelvis template :: Authored by Nisenbaum HL, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000092" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-19" name="dcterms.date"/>
+<meta content="Nisenbaum HL, et al." name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Society of Radiologists in Ultrasound (SRU)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+-->
+</script>
+<title>US Pelvico Ginecológico</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">US Pelvico Ginecológico</header>
+<p>
+<select id="T92_301" name="Procedure">
+<option id="T92_301a" name="Transabdominal" value="Transabdominal">Transabdominal</option>
+<option id="T92_301b" name="Transvaginal" value="Transvaginal">Transvaginal</option>
+<option id="T92_301c" name="Transabdominal and transvaginal" value="Transabdominal and transvaginal">Transabdominal y transvaginal</option>
+</select>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Motivo de Estudio</header>
+<p>
+<textarea id="T92_9" name="Clinical information"> </textarea>
+</p>
+<p>
+<label for="T92_13">Fecha Última Menstrución:</label>
+<input type="text" id="T92_13" name="LMP" data-field-type="DATE"/>
+</p>
+<p>
+<label for="T92_14">Embarazo:</label>
+<select id="T92_14" name="Pregnant">
+<option id="T92_14_15" name="Yes" value="Yes">Sí</option>
+<option id="T92_14_16" name="No" value="No">No</option>
+<option id="T92_14_17" name="Unknown" value="Unknown">Desconocido</option>
+</select>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparación</header>
+<p>
+<textarea id="T92_19" name="Comparison">Ninguna. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Hallazgos</header>
+<section data-section-name="Uterus">
+<header class="level2">Utero</header>
+<p>
+<label for="T92_24">Orientación:</label>
+<select id="T92_24" name="Orientation">
+<option id="T92_24_25" name="Anteverted" value="Anteverted">AV</option>
+<option id="T92_24_26" name="Retroverted" value="Retroverted">AVF</option>
+<option id="T92_24_26" name="Retroverted" value="Retroverted">RVF</option>
+<option id="T92_24_26" name="Retroverted" value="Retroverted">Indiferente</option>
+</select>
+</p>
+<p>
+<label for="T92_41">Medida Longitudinal:</label>
+<input id="T92_41" type="number" name="Endometrial thickness" value=""/> <label for="T92_41">cm</label>
+  <label for="T92_41">Medida Transversal:</label>
+  <input id="T92_41" type="number" name="Endometrial thickness" value=""/> <label for="T92_41">cm</label>
+    <label for="T92_41">Medida Anteroposterior:</label>
+    <input id="T92_41" type="number" name="Endometrial thickness" value=""/> <label for="T92_41">cm</label>
+</p>
+<p>
+  <!-- Marco revisar esto para que se despliegue el menu si la opcion es presente
+  -->
+  <label for="T87_29">Lesión Focal (Número y Tamaño):</label>
+  <select id="T87_26" name="Surface nodularity">
+  <option id="T87_26.1" name="None" value="None">Ninguna</option>
+  <option id="T87_26.2" name="Mild" value="Mild">Presente</option>
+  <label for="T192_006">Número</label>
+  <input id="T92_41" type="number" name="Endometrial thickness" value=""/> <label for="T192_006">Diametro Mayor</label>
+  <input type="number" id="T192_006" name="estimated volume" /> <label for="T192_006">cm</label>
+  </select>
+  </p>
+  <p>
+<label for="T92_38">Cervix:</label>
+<input type="text" id="T92_38" name="Cervix" value="Normal."/>
+</p>
+<p>
+<label for="T92_41">Endometrio:</label>
+<input type="text" id="T92_41_text" name="Endometrium" value="Normal."/>
+</p>
+<p>
+<label for="T92_41">Grosor Endometrial:</label>
+<select id="T87_26" name="Surface nodularity">
+<option id="T87_26.1" name="None" value="None">Proliferativo</option>
+<option id="T87_26.2" name="Mild" value="Mild">Secretor</option>
+<input id="T92_41" type="number" name="Endometrial thickness" value=""/> <label for="T92_41">mm</label>
+</p>
+</section>
+<section data-section-name="Adnexa">
+<header class="level2">Anexos</header>
+<p>
+<textarea id="T92_300" name="Adnexa">Normales. </textarea>
+</p>
+<p>
+<label for="T92_48">Tamaño de Ovario Derecho:</label>
+<input type="text" id="T92_48" name="Right ovary size" value=""/> <label for="T92_48">cm</label>
+<label for="T87_29">Masa(s):</label>
+<select id="T87_26" name="Surface nodularity">
+<option id="T87_26.1" name="None" value="None">Ninguna</option>
+<option id="T87_26.2" name="Mild" value="Mild">Presente</option>
+<input type="number" id="T192_006" name="estimated volume" /> <label for="T192_006">Diametro en cm</label>
+</select>
+</p>
+<p>
+<label for="T92_69">Tamaño de Ovario Izquierdo:</label>
+<input type="text" id="T92_69" name="Left ovary size" value=""/> <label for="T92_69">cm</label>
+<label for="T87_29">Masa(s):</label>
+<select id="T87_26" name="Surface nodularity">
+<option id="T87_26.1" name="None" value="None">Ninguna</option>
+<option id="T87_26.2" name="Mild" value="Mild">Presente</option>
+<input type="number" id="T192_006" name="estimated volume" /> <label for="T192_006">Diametro en cm</label>
+</select>
+</p>
+</section>
+<section data-section-name="Free fluid">
+<header class="level2">Liquido Libre</header>
+<p>
+<textarea id="T92_127_text" name="Free fluid">Ninguno. </textarea>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Otros Hallazgos</header>
+<p>
+<textarea id="T92_132" name="Other findings">Ninguno. </textarea>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impresión Diagnóstica</header>
+<p>
+<textarea id="T92_285" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

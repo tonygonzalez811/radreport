@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+	<meta content="CT Adrenals (Javascript)" name="dcterms.title"/>
+	<meta content="Adrenal CT template with Javascript :: Authored by Kahn CE Jr" name="dcterms.description"/>
+	<meta content="http://www.radreport.org/template/0000281" name="dcterms.identifier"/>
+	<meta content="en" name="dcterms.language"/>
+	<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+	<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+	<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+	<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+	<meta content="2014-01-17" name="dcterms.date"/>
+	<meta content="Kahn CE Jr" name="dcterms.creator"/>
+	
+	<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+	<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+    <title>CT Adrenals (Javascript)</title>
+    <link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+	<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+	<script type="text/xml">
+<!--
+<template_attributes>
+	<top-level-flag>0</top-level-flag>
+	<status>ACTIVE</status>
+	<coded_content></coded_content>
+	</template_attributes>
+-->
+</script>
+  </head>
+  <body>
+	<section data-section-name="Procedure">
+		<header class="level1">CT Adrenals</header>
+	</section>
+	<section data-section-name="Clinical information">
+		<header class="level1">Clinical information</header>
+		<p>
+			<textarea id="T281_5" name="Clinical information">Adrenal nodule. </textarea>
+		</p>
+	</section>
+	<section data-section-name="Comparison">
+		<header class="level1">Comparison</header>
+		<p>
+			<textarea id="T281_7" name="Comparison">None. </textarea>
+		</p>
+	</section>
+    <section id="T281_8" data-section-name="Observations">
+		<header class="level1">Observations:</header>
+		<section id="T281_9" class="level2" data-section-name="Adrenal nodule attenuation" >
+        <header class="level2">Adrenal nodule</header>
+        <p>
+			<label for="T281_10">Precontrast attenuation:</label> 
+			<input id="T281_10" style="width:4em;" name="precontrast" data-field-type="NUMBER" type="number" title="Precontrast attenuation" onchange="washout();" value="0" /> <label for="T281_10">HU</label>
+        </p>
+        <p>
+			<label for="T281_11">Postcontrast attenuation:</label> 
+			<input id="T281_11" style="width:4em;" name="postcontrast" data-field-type="NUMBER" type="number" title="Postcontrast attenuation" onchange="washout();" value="0" /> <label for="T281_11">HU</label>
+        </p>
+        <p>
+			<label for="T281_12">Delayed attenuation:</label> 
+			<input id="T281_12" style="width:4em;" name="delayed" data-field-type="NUMBER" type="number" title="Delayed attenuation" onchange="washout();" value="0" /> <label for="T281_12">HU</label>
+        </p>
+        <p>
+			<label for="T281_13">Washout:</label> 
+			<input id="T281_13" disabled name="Washout" style="width:4em;" data-field-type="NUMBER" type="number" title="Washout" /> <label for="T281_13">%</label>
+        </p>
+		</section>
+    </section>
+	<section id="T281_20" data-section-name="Impression">
+      <header class="level1">Impression:</header>
+        <p>
+			<textarea id="T281_14" name="Impression"></textarea>
+        </p>
+    </section>
+    <script type="text/javascript">
+      function washout () {
+        var pre =   document.getElementById('T281_10').value;
+		var pre = Number(pre);
+        var post =  document.getElementById('T281_11').value;
+		var post = Number(post);
+        var delay = document.getElementById('T281_12').value;
+		var delay = Number(delay);
+        document.getElementById('T281_13').value = Math.floor(100*(post-delay)/(post-pre)+0.5); }
+    </script>	
+  </body>
+</html>

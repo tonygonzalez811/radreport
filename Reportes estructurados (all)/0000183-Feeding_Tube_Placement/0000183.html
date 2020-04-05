@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Feeding Tube" name="dcterms.title"/>
+<meta content="Feeding Tube template :: Authored by Kahn CE Jr" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000183" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2013-12-08" name="dcterms.date"/>
+<meta content="Kahn CE Jr" name="dcterms.creator"/>
+
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>1</top-level-flag>
+<status>ACTIVE</status>
+<term>
+<code_meaning>feeding tube</code_meaning>
+<code_value>RID5561</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>placement</code_meaning>
+<code_value>RID28707</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<coded_content>
+<entry origtxt="T183_2">
+<term>
+<code_meaning>procedure</code_meaning>
+<code_value>RID1559</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T183_8">
+<term>
+<code_meaning>clinical information</code_meaning>
+<code_value>RID13166</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Clinical information</code_meaning>
+<code_value>55752-0</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.1</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T183_9">
+<term>
+<code_meaning>comparison</code_meaning>
+<code_value>RID28483</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T183_10">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T183_11">
+<term>
+<code_meaning>observations section</code_meaning>
+<code_value>RID28486</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>Radiology Study observation (narrative)</code_meaning>
+<code_value>18782-3</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.1</coding_scheme_designator>
+</term>
+</entry>
+<entry origtxt="T183_15">
+<term>
+<code_meaning>impression section</code_meaning>
+<code_value>RID13170</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>Feeding Tube</title>
+<!-- <style>header {display:none;} label {display: block;}</style> -->
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">Feeding tube placement</header>
+
+<p>
+<textarea id="T183_2" name="Procedure"></textarea>
+</p>
+
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T183_8" name="Clinical information"></textarea>
+</p>
+</section>
+
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<!-- <label for="T183_2">Naris</label> -->
+<label for="T183_999">Viscous lidocaine 2% gel was applied to the</label>
+<select id="T183_999" name="side">
+	<option id="T183_998" name="right" value="right">right</option>
+	<option id="T183_997" name="left" value="left">left</option>
+</select>
+naris. Cetacaine sprayed into the mouth. 
+</p><p>
+A <input type="number" id="T183_13" name="French" value="10" step="1" min="4" max="24" />
+ French feeding tube was placed through the naris into the 
+<select id="T183_996" name="location">
+<option id="T183_995" name="esophagus" value="esophagus">esophagus</option>
+<option id="T183_994" name="stomach" value="stomach">stomach</option>
+<option id="T183_993" name="duodenum" value="duodenum">duodenum</option>
+<option id="T183_992" name="jejunum" value="jejunum" selected>jejunum</option>
+</select>. Position was confirmed with instillation of a small amount of water-soluble contrast. The tube was flushed with water.
+</p>
+<p>
+<label for="secured">The tube was secured to the nose with</label>
+<input type="text" id="T183_991" name="secured" value="tape" />.
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<textarea id="T183_15" name="Impression">Feeding tube placement. Ready for immediate use.</textarea>
+</p>
+</section>
+</body>
+</html>
+
+

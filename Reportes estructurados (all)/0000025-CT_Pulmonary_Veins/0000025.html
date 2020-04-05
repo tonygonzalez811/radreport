@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="CT Pulmonary Veins" name="dcterms.title"/>
+<meta content="CT Pulmonary Veins template :: Authored by Jacobs JE, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000025" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-13" name="dcterms.date"/>
+<meta content="Jacobs JE, et al." name="dcterms.creator"/>
+<meta content="Bozkurt S [coder]" name="dcterms.contributor"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="North American Society for Cardiac Imaging (NASCI)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>0</top-level-flag>
+<status>ACTIVE</status>
+<term>
+<code_meaning>computed tomography</code_meaning>
+<code_value>RID10321</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>heart</code_meaning>
+<code_value>RID1385</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>pulmonary vein</code_meaning>
+<code_value>RID1231</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<coded_content>
+<entry ORIGTXT="T25_2">
+<term>
+<code_meaning>procedure</code_meaning>
+<code_value>RID1559</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_3">
+<term>
+<code_meaning>multi-detector</code_meaning>
+<code_value>RID10970</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_4">
+<term>
+<code_meaning>EKG gating</code_meaning>
+<code_value>RID11250</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_5">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_6">
+<term>
+<code_meaning>prospective gating</code_meaning>
+<code_value>RID11223</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_7">
+<term>
+<code_meaning>retrospective gating</code_meaning>
+<code_value>RID11224</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_9">
+<term>
+<code_meaning>yes</code_meaning>
+<code_value>RID28474</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_10">
+<term>
+<code_meaning>no</code_meaning>
+<code_value>RID28475</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_11">
+<term>
+<code_meaning>contrast agent</code_meaning>
+<code_value>RID11582</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_12">
+<term>
+<code_meaning>complication</code_meaning>
+<code_value>RID11525</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_13">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_14">
+<term>
+<code_meaning>radiation dose estimate</code_meaning>
+<code_value>RID10553</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_15">
+<term>
+<code_meaning>volume CT dose index</code_meaning>
+<code_value>RID12357</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_16">
+<term>
+<code_meaning>CT dose length product</code_meaning>
+<code_value>RID12359</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_17">
+<term>
+<code_meaning>clinical information</code_meaning>
+<code_value>RID13166</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_18">
+<term>
+<code_meaning>patient age</code_meaning>
+<code_value>RID13163</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_19">
+<term>
+<code_meaning>gender</code_meaning>
+<code_value>RID5652</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_20">
+<term>
+<code_meaning>female</code_meaning>
+<code_value>RID5654</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_21">
+<term>
+<code_meaning>male</code_meaning>
+<code_value>RID5653</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_24">
+<term>
+<code_meaning>ablation</code_meaning>
+<code_value>RID10397</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_25">
+<term>
+<code_meaning>radiofrequency ablation</code_meaning>
+<code_value>RID1849</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_26">
+<term>
+<code_meaning>cryoablation</code_meaning>
+<code_value>RID1754</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_27">
+<term>
+<code_meaning>stenosis</code_meaning>
+<code_value>RID5016</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>pulmonary vein</code_meaning>
+<code_value>RID1231</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_28">
+<term>
+<code_meaning>comparison</code_meaning>
+<code_value>RID28483</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_29">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_30">
+<term>
+<code_meaning>observations section</code_meaning>
+<code_value>RID28486</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_34">
+<term>
+<code_meaning>image quality</code_meaning>
+<code_value>RID10</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_35">
+<term>
+<code_meaning>exemplary quality</code_meaning>
+<code_value>RID11</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_36">
+<term>
+<code_meaning>diagnostic quality</code_meaning>
+<code_value>RID12</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_37">
+<term>
+<code_meaning>limited quality</code_meaning>
+<code_value>RID13</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_39">
+<term>
+<code_meaning>non-diagnostic quality</code_meaning>
+<code_value>RID14</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_40">
+<term>
+<code_meaning>imaging error</code_meaning>
+<code_value>RID11254</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_42">
+<term>
+<code_meaning>artifact</code_meaning>
+<code_value>RID11296</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>image registration</code_meaning>
+<code_value>RID12776</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_43">
+<term>
+<code_meaning>patient motion</code_meaning>
+<code_value>RID11308</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_44">
+<term>
+<code_meaning>calcium</code_meaning>
+<code_value>RID11800</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>artifact</code_meaning>
+<code_value>RID11296</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_45">
+<term>
+<code_meaning>metal artifact</code_meaning>
+<code_value>RID11334</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_46">
+<term>
+<code_meaning>arrhythmia artifact</code_meaning>
+<code_value>RID11309</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_47">
+<term>
+<code_meaning>set of pulmonary veins</code_meaning>
+<code_value>RID28588</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_48">
+<term>
+<code_meaning>ostium</code_meaning>
+<code_value>RID5977</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_50">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_51">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_52">
+<term>
+<code_meaning>pulmonary vein</code_meaning>
+<code_value>RID1231</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_53">
+<term>
+<code_meaning>stenosis</code_meaning>
+<code_value>RID5016</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_54">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_55">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superior</code_meaning>
+<code_value>RID5822</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_56">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_57">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_58">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_59">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_60">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_61">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superior</code_meaning>
+<code_value>RID5822</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_62">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_63">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_64">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_65">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_66">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_68">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_69">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_70">
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>pulmonary vein</code_meaning>
+<code_value>RID1231</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_71">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superior</code_meaning>
+<code_value>RID5822</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_72">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_73">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_74">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_75">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_76">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_77">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superior</code_meaning>
+<code_value>RID5822</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_78">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_79">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_80">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_81">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_82">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_84">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_85">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_86">
+<term>
+<code_meaning>left atrium</code_meaning>
+<code_value>RID1390</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_87">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_88">
+<term>
+<code_meaning>dilation</code_meaning>
+<code_value>RID4743</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_89">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_90">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_91">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_92">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_93">
+<term>
+<code_meaning>intraluminal</code_meaning>
+<code_value>RID11135</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>thrombus</code_meaning>
+<code_value>RID5037</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_94">
+<term>
+<code_meaning>absent</code_meaning>
+<code_value>RID28473</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_95">
+<term>
+<code_meaning>present</code_meaning>
+<code_value>RID28472</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_96">
+<term>
+<code_meaning>left atrial appendage</code_meaning>
+<code_value>RID1391</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_97">
+<term>
+<code_meaning>left atrium</code_meaning>
+<code_value>RID1390</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_98">
+<term>
+<code_meaning>possibly</code_meaning>
+<code_value>RID34</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_99">
+<term>
+<code_meaning>set of coronary arteries</code_meaning>
+<code_value>RID28727</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_100">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_102">
+<term>
+<code_meaning>inferior vena cava</code_meaning>
+<code_value>RID1178</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_103">
+<term>
+<code_meaning>present</code_meaning>
+<code_value>RID28472</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_104">
+<term>
+<code_meaning>absent</code_meaning>
+<code_value>RID28473</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_105">
+<term>
+<code_meaning>set of pulmonary arteries</code_meaning>
+<code_value>RID28586</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_106">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_107">
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_108">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_109">
+<term>
+<code_meaning>pulmonary embolism</code_meaning>
+<code_value>RID4834</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_110">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_111">
+<term>
+<code_meaning>lobar artery</code_meaning>
+<code_value>RID28910</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_112">
+<term>
+<code_meaning>segmental pulmonary artery</code_meaning>
+<code_value>RID28913</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_113">
+<term>
+<code_meaning>subsegmental</code_meaning>
+<code_value>RID5695</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_114">
+<term>
+<code_meaning>thoracic aorta</code_meaning>
+<code_value>RID879</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_115">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_116">
+<term>
+<code_meaning>lungs</code_meaning>
+<code_value>RID13437</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_117">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_118">
+<term>
+<code_meaning>upper abdomen</code_meaning>
+<code_value>RID29990</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_119">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_120">
+<term>
+<code_meaning>image quality</code_meaning>
+<code_value>RID10</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_121">
+<term>
+<code_meaning>exemplary quality</code_meaning>
+<code_value>RID11</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_122">
+<term>
+<code_meaning>diagnostic quality</code_meaning>
+<code_value>RID12</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_123">
+<term>
+<code_meaning>limited quality</code_meaning>
+<code_value>RID13</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_125">
+<term>
+<code_meaning>non-diagnostic quality</code_meaning>
+<code_value>RID14</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_126">
+<term>
+<code_meaning>imaging error</code_meaning>
+<code_value>RID11254</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_128">
+<term>
+<code_meaning>artifact</code_meaning>
+<code_value>RID11296</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>image registration</code_meaning>
+<code_value>RID12776</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_129">
+<term>
+<code_meaning>patient motion</code_meaning>
+<code_value>RID11308</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_130">
+<term>
+<code_meaning>calcium</code_meaning>
+<code_value>RID11800</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>artifact</code_meaning>
+<code_value>RID11296</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_131">
+<term>
+<code_meaning>metal artifact</code_meaning>
+<code_value>RID11334</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_132">
+<term>
+<code_meaning>arrhythmia artifact</code_meaning>
+<code_value>RID11309</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_133">
+<term>
+<code_meaning>set of pulmonary veins</code_meaning>
+<code_value>RID28588</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_134">
+<term>
+<code_meaning>ostium</code_meaning>
+<code_value>RID5977</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_136">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_137">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_138">
+<term>
+<code_meaning>pulmonary vein</code_meaning>
+<code_value>RID1231</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_139">
+<term>
+<code_meaning>stenosis</code_meaning>
+<code_value>RID5016</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_140">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_141">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superior</code_meaning>
+<code_value>RID5822</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_142">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_143">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_144">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_145">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_146">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_147">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superior</code_meaning>
+<code_value>RID5822</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_148">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_149">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_150">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_151">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_152">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_154">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_155">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_156">
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>pulmonary vein</code_meaning>
+<code_value>RID1231</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_157">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superior</code_meaning>
+<code_value>RID5822</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_158">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_159">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_160">
+<term>
+<code_meaning>right</code_meaning>
+<code_value>RID5825</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_161">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_162">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_163">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>superior</code_meaning>
+<code_value>RID5822</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_164">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_165">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_166">
+<term>
+<code_meaning>left</code_meaning>
+<code_value>RID5824</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>inferior</code_meaning>
+<code_value>RID5823</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_167">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_168">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_170">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_171">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_172">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_173">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_174">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_175">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_176">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_177">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_178">
+<term>
+<code_meaning>measurement</code_meaning>
+<code_value>RID10409</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_179">
+<term>
+<code_meaning>left atrium</code_meaning>
+<code_value>RID1390</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_180">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_181">
+<term>
+<code_meaning>dilation</code_meaning>
+<code_value>RID4743</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_182">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_183">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_184">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_185">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_186">
+<term>
+<code_meaning>intraluminal</code_meaning>
+<code_value>RID11135</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>thrombus</code_meaning>
+<code_value>RID5037</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_187">
+<term>
+<code_meaning>absent</code_meaning>
+<code_value>RID28473</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_188">
+<term>
+<code_meaning>present</code_meaning>
+<code_value>RID28472</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_189">
+<term>
+<code_meaning>left atrial appendage</code_meaning>
+<code_value>RID1391</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_190">
+<term>
+<code_meaning>left atrium</code_meaning>
+<code_value>RID1390</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_191">
+<term>
+<code_meaning>possibly</code_meaning>
+<code_value>RID34</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_192">
+<term>
+<code_meaning>set of pulmonary arteries</code_meaning>
+<code_value>RID28586</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_193">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_194">
+<term>
+<code_meaning>diameter</code_meaning>
+<code_value>RID13432</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_195">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_196">
+<term>
+<code_meaning>pulmonary embolism</code_meaning>
+<code_value>RID4834</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_197">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_198">
+<term>
+<code_meaning>lobar artery</code_meaning>
+<code_value>RID28910</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_199">
+<term>
+<code_meaning>segmental pulmonary artery</code_meaning>
+<code_value>RID28913</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_200">
+<term>
+<code_meaning>subsegmental</code_meaning>
+<code_value>RID5695</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_201">
+<term>
+<code_meaning>thoracic aorta</code_meaning>
+<code_value>RID879</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_202">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_203">
+<term>
+<code_meaning>lungs</code_meaning>
+<code_value>RID13437</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_204">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_205">
+<term>
+<code_meaning>upper abdomen</code_meaning>
+<code_value>RID29990</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_206">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_207">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_208">
+<term>
+<code_meaning>enlarged</code_meaning>
+<code_value>RID5791</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_209">
+<term>
+<code_meaning>stenosis</code_meaning>
+<code_value>RID5016</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_210">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_211">
+<term>
+<code_meaning>consolidated</code_meaning>
+<code_value>RID5873</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_212">
+<term>
+<code_meaning>atelectasis</code_meaning>
+<code_value>RID28493</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_213">
+<term>
+<code_meaning>coin lesion</code_meaning>
+<code_value>RID35095</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_214">
+<term>
+<code_meaning>yes</code_meaning>
+<code_value>RID28474</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_215">
+<term>
+<code_meaning>no</code_meaning>
+<code_value>RID28475</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_216">
+<term>
+<code_meaning>calcified</code_meaning>
+<code_value>RID5747</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+<term>
+<code_meaning>granuloma</code_meaning>
+<code_value>RID3953</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_217">
+<term>
+<code_meaning>yes</code_meaning>
+<code_value>RID28474</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_218">
+<term>
+<code_meaning>no</code_meaning>
+<code_value>RID28475</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_219">
+<term>
+<code_meaning>yes</code_meaning>
+<code_value>RID28474</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_220">
+<term>
+<code_meaning>no</code_meaning>
+<code_value>RID28475</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_221">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_222">
+<term>
+<code_meaning>normal</code_meaning>
+<code_value>RID13173</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_223">
+<term>
+<code_meaning>impression section</code_meaning>
+<code_value>RID13170</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_224">
+<term>
+<code_meaning>none</code_meaning>
+<code_value>RID28454</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_225">
+<term>
+<code_meaning>mild</code_meaning>
+<code_value>RID5671</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_226">
+<term>
+<code_meaning>moderate</code_meaning>
+<code_value>RID5672</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+<entry ORIGTXT="T25_227">
+<term>
+<code_meaning>severe</code_meaning>
+<code_value>RID5673</code_value>
+<coding_scheme_designator>2.16.840.1.113883.6.256</coding_scheme_designator>
+</term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>CT Pulmonary Veins</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">CT Pulmonary Veins</header>
+<p>
+<textarea id="T25_2" name="Procedure"> </textarea>
+</p>
+<p>
+<label for="T25_11">IV contrast:</label>
+<input type="text" id="T25_11" name="Contrast agent" value=""/>
+<input type="number" id="T25_11_dose" name="Contrast dose" data-field-units="mL" />
+<label for="T25_11_dose">mL</label>
+</p>
+<p>
+<label for="T25_12">Complication:</label>
+<input type="text" id="T25_12" name="Complication" value="None."/>
+</p>
+<p>
+<label for="T25_15">CT dose index-volume:</label>
+<input type="number" id="T25_15" name="CT dose index-volume" data-field-units="mGy" min="" max=""/> 
+<label for="T25_15">mGy</label>
+</p>
+<p>
+<label for="T25_16">CT dose length:</label>
+<input type="number" id="T25_16" name="CT dose length" data-field-units="mGy cm" min="" max=""/> 
+<label for="T25_16">mGy cm</label>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T25_17" name="Clinical information"> </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T25_28" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<section data-section-name="Technical findings">
+<header class="level2">Technical findings</header>
+<p>
+<label for="T25_31">Baseline cardiac rhythm:</label>
+<select id="T25_31" name="Baseline cardiac rhythm">
+<option id="T25_31_32" name="Sinus rhythm" value="Sinus rhythm">Sinus rhythm</option>
+<option id="T25_31_33" name="Atrial fibrillation" value="Atrial fibrillation">Atrial fibrillation</option>
+</select>
+</p>
+<p>
+<label for="T25_34">Examination quality:</label>
+<select id="T25_34" name="Examination quality">
+<option id="T25_34.1" name="Excellent" value="Excellent">Excellent</option>
+<option id="T25_34.2" name="Good" value="Good">Good</option>
+<option id="T25_34.3" name="Fair" value="Fair">Fair</option>
+<option id="T25_34.4" name="Poor" value="Poor">Poor</option>
+<option id="T25_34.5" name="Nondiagnostic" value="Nondiagnostic">Nondiagnostic</option>
+</select>
+</p>
+<p>
+<label for="T25_40">Limitations:</label>
+<input type="text" id="T25_40" name="Limitations" value="None."/>
+</p>
+</section>
+<section data-section-name="Pulmonary veins">
+<header class="level2">Pulmonary veins</header>
+<p>
+There are
+<input type="number" id="T25_50" name="right pulmonary veins"/> right pulmonary vein ostia
+and
+<input type="number" id="T25_51" name="left pulmonary veins"/> left pulmonary vein ostia
+into the left atrium.
+</p>
+<p>
+<label for="T25_53">Pulmonary vein stenosis:</label>
+<input type="text" id="T25_53" name="Pulmonary vein stenosis" value="None."/>
+</p>
+<p>Pulmonary vein diameters</p>
+<p>
+<label for="T25_55">Right superior:</label>
+<input type="text" id="T25_55" name="Right superior" value=""/> 
+<label for="T25_55">mm</label>
+</p>
+<p>
+<label for="T25_58">Right inferior:</label>
+<input type="text" id="T25_58" name="Right inferior" value=""/> 
+<label for="T25_58">mm</label>
+</p>
+<p>
+<label for="T25_61">Left superior:</label>
+<input type="text" id="T25_61" name="Left superior" value=""/> 
+<label for="T25_61">mm</label>
+</p>
+<p>
+<label for="T25_64">Left inferior:</label>
+<input type="text" id="T25_64" name="Left inferior" value=""/> 
+<label for="T25_64">mm</label>
+</p>
+</section>
+<section data-section-name="Heart">
+<header class="level2">Heart</header>
+<p>
+<label for="T25_86">Left atrium size:</label>
+<input type="text" id="T25_86" name="Left atrium size" value="Normal."/>
+</p>
+<p>
+<label for="T25_93">Left atrium lumen:</label>
+<input type="text" id="T25_93" name="Left atrium lumen" value="Normal opacification. No intraluminal thrombus."/>
+</p>
+<p>
+<label for="T25_99">Coronary arteries:</label>
+<input type="text" id="T25_99" name="Coronary arteries" value="Normal. "/>
+</p>
+<p>
+<label for="T25_102">IVC anomalies:</label>
+<input type="text" id="T25_102_text" name="IVC anomalies" value="None."/>
+</p>
+</section>
+<section data-section-name="Pulmonary arteries">
+<header class="level2">Pulmonary arteries</header>
+<p>
+<label for="T25_105">Pulmonary artery caliber:</label>
+<input type="text" id="T25_105" name="Pulmonary artery caliber" value="Normal."/>
+</p>
+<p>
+<label for="T25_107">Pulmonary artery diameter:</label>
+<input type="text" id="T25_107" name="Pulmonary artery diameter" value="Normal. "/>
+</p>
+<p>
+<label for="T25_109">Pulmonary emboli:</label>
+<input type="text" id="T25_109" name="Pulmonary emboli" value="None."/>
+</p>
+</section>
+<section data-section-name="Other findings">
+<header class="level2">Other findings</header>
+<p>
+<label for="T25_114">Thoracic aorta:</label>
+<input type="text" id="T25_114" name="Thoracic aorta" value="Normal."/>
+</p>
+<p>
+<label for="T25_116">Lungs:</label>
+<input type="text" id="T25_116" name="Lungs" value="Normal."/>
+</p>
+<p>
+<label for="T25_118">Upper abdomen:</label>
+<input type="text" id="T25_118" name="Upper abdomen" value="Normal."/>
+</p>
+</section>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<label for="T25_120">Pulmonary venous anatomy:</label>
+<input type="text" id="T25_120" name="Pulmonary venous anatomy" value="Normal."/>
+</p>
+<p>
+<label for="T25_121">Pulmonary vein stenosis:</label>
+<input type="text" id="T25_121" name="Pulmonary vein stenosis" value="None."/>
+</p>
+<p>
+<label for="T25_122">Left atrial or appendageal thrombus:</label>
+<input type="text" id="T25_122" name="Pulmonary venous anatomy" value="None."/>
+</p>
+<p>
+<textarea id="T25_223" name="Impression"> </textarea>
+</p>
+</section>
+</body>
+</html>

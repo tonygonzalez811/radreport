@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8"/>
+	<meta content="US Bladder" name="dcterms.title"/>
+	<meta content="Bladder Ultrasound template with Javascript :: Authored by Kahn CE Jr" name="dcterms.description"/>
+	<meta content="http://www.radreport.org/template/0000282" name="dcterms.identifier"/>
+	<meta content="en" name="dcterms.language"/>
+	<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+	<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+	<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+	<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+	<meta content="2014-01-17" name="dcterms.date"/>
+	<meta content="Kahn CE Jr" name="dcterms.creator"/>
+	
+	<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+	<meta content="Medical College of Wisconsin (MCW)" name="dcterms.contributor"/>
+    <title>US Bladder</title>
+    <link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+	<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+	<script type="text/xml">
+<!--
+<template_attributes>
+	<top-level-flag>0</top-level-flag>
+	<status>ACTIVE</status>
+	<coded_content></coded_content>
+	</template_attributes>
+-->
+</script>	
+	
+  </head>
+  <body>
+  	<section data-section-name="Procedure">
+		<header class="level1">Bladder Ultrasound Examination</header>
+	</section>
+	<section data-section-name="Clinical information">
+		<header class="level1">Clinical information</header>
+		<p>
+			<textarea id="F5" name="Clinical information">Incomplete voiding. Assess bladder volume.</textarea>
+		</p>
+	</section>
+	<section data-section-name="Comparison">
+		<header class="level1">Comparison</header>
+		<p>
+			<textarea id="F7" name="Comparison">None.</textarea>
+		</p>
+	</section>
+    <section id="T008" data-section-name="Observations:">
+		<header class="level1">Observations</header>
+		<section id="T009" class="level2" data-section-name="Urinary bladder" >
+        <header class="level2">Urinary bladder</header>
+
+					<table>
+					<tr>
+						<th></th>
+						<th><label>Measurement</label></th>
+						<th><label>Volume</label></th>
+					</tr>
+					<tr>
+						<td><label for="T010">Pre-void:</label></td>
+						<td>
+							<input id="T010" name="Pre-void size" data-field-type="TEXT" type="text" title="Pre-void" onblur="document.getElementById('T011').value = computeVolume(this.value);" style="width:6em;" /> <label for="T010">cm</label>
+						</td>
+						<td>
+					<input id="T011" disabled name="volume1" data-field-type="NUMBER" type="number" title="Pre-void volume" style="width:6em;" /> <label for="T011">mL</label>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="T020">Post-void:</label></td>
+						<td>
+							<input id="T020" name="Post-void size" data-field-type="TEXT" type="text" title="Post-void" onblur="document.getElementById('T021').value = computeVolume(this.value);" style="width:6em;" /> <label for="T020">cm</label>
+						</td>
+						<td>
+					<input id="T021" disabled name="volume2" data-field-type="NUMBER" type="number" title="Post-void volume" style="width:6em;" /> <label for="T021">mL</label>
+						</td>
+					</tr></table>
+
+       </section>
+    </section>
+
+	<section id="T301" data-section-name="Impression">
+		<header class="level1">Impression</header>
+		<p>
+		<textarea id="T303" name="impression-text" rows="2" cols="50" title="Impression text" ></textarea>
+		</p>
+	</section>
+    <script type="text/javascript">
+      function computeVolume (size) {
+        var d = size.match(/([0-9]+.?[0-9]*)/g);
+				if (d == null) {
+					return NaN;
+					}
+        switch (d.length) {
+					case 1:
+						var a = d[0];
+						return Math.floor((0.523*a*a*a)+0.5);
+						break;
+					case 2:
+						var a = d[0];
+						var b = d[1];
+						var c = Math.sqrt(a*b);
+						return Math.floor((0.523*a*b*c)+0.5);
+						break;
+					case 3:
+						var a = d[0];
+						var b = d[1];
+						var c = d[2];
+						return Math.floor((0.523*a*b*c)+0.5);
+						break;
+					default:
+						return NaN;
+						break;
+					}
+        return d.length;
+			}
+    </script>
+	</body>
+</html>

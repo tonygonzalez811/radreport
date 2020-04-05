@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="Traumatic Brain Injury Imaging" name="dcterms.title"/>
+<meta content="TBI Imaging template :: Authored by NINDS" name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000284" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2014-01-04" name="dcterms.date"/>
+<meta content="T284_landers AE, Kahn CE Jr" name="dcterms.creator"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<meta content="National Institute for Neurological Disease and Stroke (NINDS)" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css" />
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>0</top-level-flag>
+<status>ACTIVE</status>
+<coded_content></coded_content>
+</template_attributes>
+-->
+</script>
+<title>Traumatic Brain Injury Imaging</title>
+</head>
+<body>
+	<section data-section-name="Procedure">
+		<header class="level1">Traumatic Brain Injury Imaging</header>
+			<section data-section-name="Technical Information">
+			<header class="level1">Technical Information</header>
+				<ol>
+					<li>
+						<label for="T284_1">Imaging study date and time:</label>
+						<input id="T284_1" name="Imaging study date" type="date"/> <input id="T284_1.time" name="Imaging study time" type="time"/>
+					</li>
+					<li>
+						<label for="T284_2">Imaging modality:</label>
+						<select id="T284_2" name="Imaging modality">
+							<option id="T284_2.1" name="Non-contrast CT" value="Non-contrast CT">Non-contrast CT</option>
+							<option id="T284_2.2" name="Contrast CT" value="Contrast CT">Contrast CT</option>
+							<option id="T284_2.3" name="CT Angiography" value="CT Angiography">CT Angiography</option>
+							<option id="T284_2.4" name="X-Ray Angiography" value="X-Ray Angiography">X-Ray Angiography</option>
+							<option id="T284_2.5" name="MRI" value="MRI">MRI</option>
+							<option id="T284_2.6" name="MRA" value="MRA">MRA</option>
+						</select>
+					</li>
+					<li>
+						<label for="T284_3">Imaging scanner strength:</label>
+						<select id="T284_3" name="Imaging scanner strength">
+							<option id="T284_3.1" name="1.5 T" value="1.5 T">1.5 T</option>
+							<option id="T284_3.2" name="3.0 T" value="3.0 T">3.0 T</option>
+							<option id="T284_3.3" name="4.0 T" value="4.0 T">4.0 T</option>
+							<option id="T284_3.4" name="7.0 T" value="7.0 T">7.0 T</option>
+						</select>
+					</li>
+					<li>
+						<label for="T284_4">Imaging scanner manufacturer name:</label>
+						<select id="T284_4" name="Imaging scanner manufacturer name">
+							<option id="T284_4.1" name="Agfa" value="Agfa">Agfa</option>
+							<option id="T284_4.2" name="Carestream" value="Carestream">Carestream</option>
+							<option id="T284_4.3" name="GE" value="GE">GE</option>
+							<option id="T284_4.4" name="Hitachi" value="Hitachi">Hitachi</option>
+							<option id="T284_4.5" name="Hologic" value="Hologic">Hologic</option>
+							<option id="T284_4.6" name="Konica Minolta" value="Konica Minolta">Konica Minolta</option>
+							<option id="T284_4.7" name="Philips" value="Philips">Philips</option>
+							<option id="T284_4.8" name="Siemens" value="Siemens">Siemens</option>
+							<option id="T284_4.9" name="Toshiba" value="Toshiba">Toshiba</option>
+						</select>
+					</li>
+					<li>
+						<label for="T284_5">Imaging scanner model name:</label>
+						<input type="text" id="T284_5" name="Imaging scanner model name" />
+					</li>
+					<li>
+						<label for="T284_6">Imaging scanner software version number:</label>
+						<input type="text" id="T284_6" name="Imaging scanner software version number" />
+					</li>
+					<li>
+						<label for="T284_7">Imaging sequence (choose all that apply):</label>
+						<select id="T284_7" name="Imaging sequence" multiple="multiple">
+							<option id="T284_7.1" name="T1" value="T1">T1</option>
+							<option id="T284_7.2" name="T2" value="T2">T2</option>
+							<option id="T284_7.3" name="FLAIR" value="FLAIR">FLAIR</option>
+							<option id="T284_7.4" name="DWI" value="DWI">DWI</option>
+							<option id="T284_7.5" name="GRE" value="GRE">GRE</option>
+							<option id="T284_7.6" name="SWI" value="SWI">SWI</option>
+							<option id="T284_7.7" name="DTI" value="DTI">DTI</option>
+							<option id="T284_7.8" name="MRSI" value="MRSI">MRSI</option>
+							<option id="T284_7.9" name="PWI" value="PWI">PWI</option>
+							<option id="T284_7.10" name="Other" value="Other (specify)">Other (specify)</option>
+						</select>
+						<label for="T284_7.other">Other:</label>
+						<input type="text" id="T284_7.other" name="Imaging scanner software - other" />
+					</li>
+				</ol>
+		</section>
+	</section>
+	<section data-section-name="Clinical information">
+		<header class="level1">Clinical information</header>
+		<p>
+			<textarea id="T284_8" name="Clinical information"></textarea>
+		</p>
+	</section>
+	<section data-section-name="Comparison">
+		<header class="level1">Comparison</header>
+		<p>
+			<textarea id="T284_9" name="Comparison">None.</textarea>
+		</p>
+	</section>
+	<section data-section-name="Findings">
+		<header class="level1">Findings</header>
+
+		<ol start="8">
+		<li>
+		<label for="T284_10">Brain imaging result:</label>
+		<select id="T284_10" name="Brain imaging result">
+			<option id="T284_10.1" name="Normal" value="Normal">Normal</option>
+			<option id="T284_10.2" name="Abnormal" value="Abnormal">Abnormal</option>
+			<option id="T284_10.3" name="Not done" value="Not done">Not done</option>
+			<option id="T284_10.4" name="Unknown" value="Unknown">Unknown</option>
+		</select>
+
+		<label>If answered #8 "Normal," "Not done," or "Unknown," skip remaining questions.</label>
+		</li>
+
+		<li>
+		<label for="T284_11">Skull fracture</label>
+		<select id="T284_11" name="Skull fracture">
+			<option id="T284_11.1" name="Present" value="Present">Present</option>
+			<option id="T284_11.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_11.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_12">Epidural hematoma</label>
+		<select id="T284_12" name="Epidural hematoma">
+			<option id="T284_12.1" name="Present" value="Present">Present</option>
+			<option id="T284_12.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_12.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_13">Extraaxial hematoma</label>
+		<select id="T284_13" name="Extraaxial hematoma">
+			<option id="T284_13.1" name="Present" value="Present">Present</option>
+			<option id="T284_13.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_13.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_14">Acute subdural hematoma</label>
+		<select id="T284_14" name="Acute subdural hematoma">
+			<option id="T284_14.1" name="Present" value="Present">Present</option>
+			<option id="T284_14.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_14.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_15">Subacute or chronic subdural hematoma</label>
+		<select id="T284_15" name="Subacute or chronic subdural hematoma">
+			<option id="T284_15.1" name="Present" value="Present">Present</option>
+			<option id="T284_15.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_15.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+
+		<li>
+		<label for="T284_16">Subdural hematoma - mixed density or CSF-like collection</label>
+		<select id="T284_16" name="Subdural hematoma - mixed density or CSF-like collection">
+			<option id="T284_16.1" name="Present" value="Present">Present</option>
+			<option id="T284_16.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_16.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_17">Subarachnoid hemorrhage</label>
+		<select id="T284_17" name="Subarachnoid hemorrhage">
+			<option id="T284_17.1" name="Present" value="Present">Present</option>
+			<option id="T284_17.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_17.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_18">Vascular dissection</label>
+		<select id="T284_18" name="Vascular dissection">
+			<option id="T284_18.1" name="Present" value="Present">Present</option>
+			<option id="T284_18.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_18.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_19">Traumatic aneurysm</label>
+		<select id="T284_19" name="Traumatic aneurysm">
+			<option id="T284_19.1" name="Present" value="Present">Present</option>
+			<option id="T284_19.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_19.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_20">Venous sinus injury</label>
+		<select id="T284_20" name="Venous sinus injury">
+			<option id="T284_20.1" name="Present" value="Present">Present</option>
+			<option id="T284_20.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_20.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_21">Midline shift supratentorial</label>
+		<select id="T284_21" name="Midline shift supratentorial">
+			<option id="T284_21.1" name="Present" value="Present">Present</option>
+			<option id="T284_21.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_21.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_22">Cisternal compression</label>
+		<select id="T284_22" name="Cisternal compression">
+			<option id="T284_22.1" name="Present" value="Present">Present</option>
+			<option id="T284_22.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_22.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		<label>If answered #20 "Indeterminate," or "Absent," skip to question 22.</label>
+		</li>
+		
+		<li>
+		<label for="T284_23">Cisternal compression type</label>
+		<select id="T284_23" name="Cisternal compression type" multiple="multiple">
+			<option id="T284_23.1" name="Visible but compressed - Asymmetric" value="Visible but compressed - Asymmetric">Visible but compressed - Asymmetric</option>
+			<option id="T284_23.2" name="Visible but compressed - Symmetric" value="Visible but compressed - Symmetric">Visible but compressed - Symmetric</option>
+			<option id="T284_23.3" name="Mixed (some cisterns open, others compressed/obliterated)" value="Mixed (some cisterns open, others compressed/obliterated)">Mixed (some cisterns open, others compressed/obliterated)</option>
+			<option id="T284_23.4" name="Obliterated (all cisterns)" value="Obliterated (all cisterns)">Obliterated (all cisterns)</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_24">Fourth ventricle shift or effacement</label>
+		<select id="T284_24" name="Fourth ventricle shift or effacement">
+			<option id="T284_24.1" name="Present" value="Present">Present</option>
+			<option id="T284_24.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_24.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+
+		<li>
+		<label for="T284_25">Contusion</label>
+		<select id="T284_25" name="Contusion">
+			<option id="T284_25.1" name="Present" value="Present">Present</option>
+			<option id="T284_25.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_25.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		<label>If answered #23 "Indeterminate," or "Absent," skip to question 25.</label>
+		</li>
+
+		<li>
+		<label for="T284_26">Contusion findings (choose all that apply)</label>
+		<select id="T284_26" name="Contusion findings" multiple="multiple">
+			<option id="T284_26.1" name="Hemorrhagic" value="Hemorrhagic">Hemorrhagic</option>
+			<option id="T284_26.2" name="Non-hemorrhagic" value="Non-hemorrhagic">Non-hemorrhagic</option>
+			<option id="T284_26.3" name="Cortical" value="Cortical">Cortical</option>
+			<option id="T284_26.4" name="Subcortical" value="Subcortical">Subcortical</option>
+			<option id="T284_26.5" name="Deep brain structures" value="Deep brain structures">Deep brain structures</option>
+			<option id="T284_26.6" name="Probable brain laceration" value="Probable brain laceration">Probable brain laceration (linear hemorrhagic or non-hemorrhagic pattern, often associated with overlying skull fracture)</option>
+		</select>
+		</li>
+
+
+		<li>
+		<label for="T284_27">Intracerebral hemorrhage</label>
+		<select id="T284_27" name="Intracerebral hemorrhage">
+			<option id="T284_27.1" name="Present" value="Present">Present</option>
+			<option id="T284_27.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_27.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_28">Intraventricular hemorrhage</label>
+		<select id="T284_28" name="Intraventricular hemorrhage">
+			<option id="T284_28.1" name="Present" value="Present">Present</option>
+			<option id="T284_28.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_28.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_29">Diffuse axonal injury</label>
+		<select id="T284_29" name="Diffuse axonal injury">
+		<option id="T284_29.1" name="Present" value="Present">Present</option>
+		<option id="T284_29.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+		<option id="T284_29.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		<label>If answered #27 "Indeterminate," or "Absent," skip to question 29.</label>
+		</li>
+
+
+		<li><label>Diffuse axonal injury anatomic site (choose all that apply):	</label>
+		<table>
+		<tr><td><input type="checkbox" id="T284_30.1L" name="Frontal - L" value="Frontal - L"><label for="T284_30.1L">Frontal - L</label></td><td><input type="checkbox" id="T284_30.1R" name="Frontal - R" value="Frontal - R"><label for="T284_30.1R">Frontal - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.2L" name="Parietal - L" value="Parietal - L"><label for="T284_30.2L">Parietal - L</label></td><td><input type="checkbox" id="T284_30.2R" name="Parietal - R" value="Parietal - R"><label for="T284_30.2R">Parietal - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.3L" name="Temporal - L" value="Temporal - L"><label for="T284_30.3L">Temporal - L</label></td><td><input type="checkbox" id="T284_30.3R" name="Temporal - R" value="Temporal - R"><label for="T284_30.3R">Temporal - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.4L" name="Occipital - L" value="Occipital - L"><label for="T284_30.4L">Occipital - L</label></td><td><input type="checkbox" id="T284_30.4R" name="Occipital - R" value="Occipital - R"><label for="T284_30.4R">Occipital - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.5L" name="Thalamus/Basal ganglia - L" value="Thalamus/Basal ganglia - L"><label for="T284_30.5L">Thalamus/Basal ganglia - L</label></td><td><input type="checkbox" id="T284_30.5R" name="Thalamus/Basal ganglia - R" value="Thalamus/Basal ganglia - R"><label for="T284_30.5R">Thalamus/Basal ganglia - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.6L" name="Midbrain - L" value="Midbrain - L"><label for="T284_30.6L">Midbrain - L</label></td><td><input type="checkbox" id="T284_30.6R" name="Midbrain - R" value="Midbrain - R"><label for="T284_30.6R">Midbrain - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.7L" name="Pons - L" value="Pons - L"><label for="T284_30.7L">Pons - L</label></td><td><input type="checkbox" id="T284_30.7R" name="Pons - R" value="Pons - R"><label for="T284_30.7R">Pons - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.8L" name="Medulla - L" value="Medulla - L"><label for="T284_30.8L">Medulla -L</label></td><td><input type="checkbox" id="T284_30.8R" name="Medulla - R" value="Medulla - R"><label for="T284_30.8R">Medulla - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.9L" name="Cerebellum - L" value="Cerebellum - L"><label for="T284_30.9L">Cerebellum - L</label></td><td><input type="checkbox" id="T284_30.9R" name="Cerebellum - R" value="Cerebellum - R"><label for="T284_30.9R">Cerebellum - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.10L" name="Corpus Callosum: Genu - L" value="Corpus Callosum: Genu - L"><label for="T284_30.10L">Corpus Callosum: Genu - L</label></td><td><input type="checkbox" id="T284_30.10R" name="Corpus Callosum: Genu - R" value="Corpus Callosum: Genu - R"><label for="T284_30.10R">Corpus Callosum: Genu - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.11L" name="Corpus Callosum: Body - L" value="Corpus Callosum: Body - L"><label for="T284_30.11L">Corpus Callosum: Body - L</label></td><td><input type="checkbox" id="T284_30.11R" name="Corpus Callosum: Body - R" value="Corpus Callosum: Body - R"><label for="T284_30.11R">Corpus Callosum: Body - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.12L" name="Corpus Callosum: Splenium - L" value="Corpus Callosum: Splenium - L"><label for="T284_30.12L">Corpus Callosum: Splenium - L</label></td><td><input type="checkbox" id="T284_30.12R" name="Corpus Callosum: Splenium - R" value="Corpus Callosum: Splenium - R"><label for="T284_30.12R">Corpus Callosum: Splenium - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.13L" name="Subcortical White matter: Frontal - L" value="Subcortical White matter: Frontal - L"><label for="T284_30.13L">Subcortical White matter: Frontal - L</label></td><td><input type="checkbox" id="T284_30.13R" name="Subcortical White matter: Frontal - R" value="Subcortical White matter: Frontal - R"><label for="T284_30.13R">Subcortical White matter: Frontal - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.14L" name="Subcortical White matter: Parietal - L" value="Subcortical White matter: Parietal - L"><label for="T284_30.14L">Subcortical White matter: Parietal - L</label></td><td><input type="checkbox" id="T284_30.14R" name="Subcortical White matter: Parietal - R" value="Subcortical White matter: Parietal - R"><label for="T284_30.14R">Subcortical White matter: Parietal - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.15L" name="Subcortical White matter: Temporal - L" value="Subcortical White matter: Temporal - L"><label for="T284_30.15L">Subcortical White matter: Temporal - L</label></td><td><input type="checkbox" id="T284_30.15R" name="Subcortical White matter: Temporal - R" value="Subcortical White matter: Temporal - R"><label for="T284_30.15R">Subcortical White matter: Temporal - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.16L" name="Subcortical White matter: Occipital - L" value="Subcortical White matter: Occipital - L"><label for="T284_30.16L">Subcortical White matter: Occipital - L</label></td><td><input type="checkbox" id="T284_30.16R" name="Subcortical White matter: Occipital - R" value="Subcortical White matter: Occipital - R"><label for="T284_30.16R">Subcortical White matter: Occipital - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.17L" name="Internal Capsule: Anterior limb - L" value="Internal Capsule: Anterior limb - L"><label for="T284_30.17L">Internal Capsule: Anterior limb - L</label></td><td><input type="checkbox" id="T284_30.17R" name="Internal Capsule: Anterior limb - R" value="Internal Capsule: Anterior limb - R"><label for="T284_30.17R">Internal Capsule: Anterior limb - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.18L" name="Internal Capsule: Posterior limb - L" value="Internal Capsule: Posterior limb - L"><label for="T284_30.18L">Internal Capsule: Posterior limb - L</label></td><td><input type="checkbox" id="T284_30.18R" name="Internal Capsule: Posterior limb - R" value="Internal Capsule: Posterior limb - R"><label for="T284_30.18R">Internal Capsule: Posterior limb - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.19L" name="Brainstem: Dorsolateral rostral - L" value="Brainstem: Dorsolateral rostral - L"><label for="T284_30.19L">Brainstem: Dorsolateral rostral  - L</label></td><td><input type="checkbox" id="T284_30.19R" name="Brainstem: Dorsolateral rostral - R" value="Brainstem: Dorsolateral rostral - R"><label for="T284_30.19R">Brainstem: Dorsolateral rostral - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.20L" name="Brainstem: other - L" value="Brainstem: other - L"><label for="T284_30.20L">Brainstem: other - L</label></td><td><input type="checkbox" name="T284_30.20R" id="Brainstem: other - R" value="Brainstem: other - R"><label for="T284_30.20R">Brainstem: other - R</label></td></tr>
+		<tr><td><input type="checkbox" id="T284_30.21L" name="Cerrebellar Peduncles - L" value="Cerrebellar Peduncles - L"><label for="T284_30.21L">Cerrebellar Peduncles - L</label></td><td><input type="checkbox" name="Cerrebellar Peduncles - R" id="T284_30.21R" value="Cerrebellar Peduncles - R"><label for="T284_30.21R">Cerrebellar Peduncles - R</label></td></tr>
+		</table>
+		</li>
+
+
+
+		<li>
+		<label for="T284_31">Penetrating injury</label>
+		<select id="T284_31" name="Penetrating injury">
+			<option id="T284_31.1" name="Present" value="Present">Present</option>
+			<option id="T284_31.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_31.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		<label>If answered #29 "Indeterminate," or "Absent," skip to question 32. </label>
+		</li>
+		
+		<li>
+		<label for="T284_32">Penetrating injury associated findings (choose all that apply):</label>
+		<select id="T284_32" name="Penetrating injury associated findings" multiple="multiple">
+			<option id="T284_32.1" name="Indriven fragments" value="Indriven fragments (bone, foreign bodies)">Indriven fragments (bone, foreign bodies)</option>
+			<option id="T284_32.2" name="Through and through trajectory" value="Through and through trajectory (entrance and exit sites)">Through and through trajectory (entrance and exit sites)</option>
+			<option id="T284_32.3" name="Transventricular trajectory" value="Transventricular trajectory">Transventricular trajectory</option>
+			<option id="T284_32.4" name="Crosses midline" value="Crosses midline">Crosses midline</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_33">Gunshot wound caliber number:</label>
+		<input type="number" id="T284_33" name="Gunshot wound caliber number"/>
+		</li>
+
+		<li>
+		<label for="T284_34">Cervicomedullary junction or brainstem injury</label>
+		<select id="T284_34" name="Cervicomedullary junction or brainstem injury">
+			<option id="T284_34.1" name="Present" value="Present">Present</option>
+			<option id="T284_34.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_34.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		<label>If answered #32 "Indeterminate," or "Absent," skip to question 34. </label>
+		</li>
+		
+		<li>
+		<label for="T284_35">Cervicomedullary junction or brainstem injury anatomic site  (choose all that apply):</label>
+		<select id="T284_35" name="Cervicomedullary junction or brainstem injury anatomic site" multiple="multiple">
+			<option id="T284_35.1" name="Midbrain" value="Midbrain">Midbrain</option>
+			<option id="T284_35.2" name="Pons" value="Pons">Pons</option>
+			<option id="T284_35.3" name="Medulla" value="Medulla">Medulla</option>
+			<option id="T284_35.4" name="Cervical" value="Cervical">Cervical</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_36">Edema</label>
+		<select id="T284_36" name="Edema">
+		<option id="T284_36.1" name="Present" value="Present">Present</option>
+		<option id="T284_36.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+		<option id="T284_36.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_37">Brain swelling</label>
+		<select id="T284_37" name="Brain swelling">
+		<option id="T284_37.1" name="Present" value="Present">Present</option>
+		<option id="T284_37.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+		<option id="T284_37.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		<label>If answered #35 "Indeterminate," or "Absent," skip to question 37. </label>
+		</li>
+
+		<li>
+		<label for="T284_38">Brain swelling extent</label>
+		<select id="T284_38" name="Brain swelling extent">
+			<option id="T284_38.1" name="Focal" value="Focal">Focal</option>
+			<option id="T284_38.2" name="Lobar" value="Lobar">Lobar</option>
+			<option id="T284_38.3" name="Multilobar" value="Multilobar">Multilobar</option>
+			<option id="T284_38.4" name="Hemispheric" value="Hemispheric">Hemispheric</option>
+			<option id="T284_38.5" name="Bihemispheric" value="Bihemispheric">Bihemispheric</option>
+			<option id="T284_38.6" name="Posterior fossa" value="Posterior fossa">Posterior fossa</option>
+			<option id="T284_38.7" name="Global" value="Global">Global</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_39">Ischemia or infarction or hypoxic-ischemic injury</label>
+		<select id="T284_39" name="Ischemia or infarction or hypoxic-ischemic injury">
+			<option id="T284_39.1" name="Present" value="Present">Present</option>
+			<option id="T284_39.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_39.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+
+		<li>
+		<label for="T284_40">Brain atrophy or encephalomalacia</label>
+		<select id="T284_40" name="Brain atrophy or encephalomalacia">
+			<option id="T284_40.1" name="Present" value="Present">Present</option>
+			<option id="T284_40.2" name="Indeterminate" value="Indeterminate">Indeterminate</option>
+			<option id="T284_40.3" name="Absent" value="Absent" selected>Absent</option>
+		</select>
+		</li>
+		</ol>
+
+
+
+		<section data-section-name="Additional Findings">
+			<header class="level2">Additional Findings</header>
+			<p>
+			<textarea id="T284_41" name="Additional Findings">None.</textarea>
+			</p>
+		</section>
+
+		<!--
+
+		Additional Supplemental Elements:
+		These elements may be included if relevant to the study. For additional details like permissible values, see the data dictionary associated with this CRF.
+		*	Marshall CT classification code
+		*	Skull fracture anatomic site
+		*	Skull fracture morphology findings type
+		*	Epidural hematoma anatomic site
+		*	Epidural hematoma volume measurement
+		*	Epidural hematoma findings type
+		*	Extraaxial hematoma anatomic site
+		*	Extraaxial hematoma volume measurement
+		*	Subdural hematoma acute anatomic site
+		*	Subdural hematoma acute volume measurement
+		*	Subdural hematoma acute type
+		*	Subdural hematoma subacute or chronic anatomic site
+		*	Subdural hematoma subacute or chronic volume measurement
+		*	Subdural hematoma subacute or chronic findings type
+		*	Subdural hematoma mixed density or CSF-like collection anatomic site
+		*	Subdural hematoma mixed density or CSF-like collection volume measurement
+		*	Subdural hematoma mixed density or CSF-like collection findings type
+		*	Subarachnoid hemorrhage anatomic site
+		*	Subarachnoid hemorrhage extent type 
+		*	Subarachnoid hemorrhage findings type
+		*	Vascular dissection anatomic site
+		*	Vascular dissection site type
+		*	Vascular dissection extent type
+		*	Vascular dissection findings type
+		*	Traumatic aneurysm anatomic site
+		*	Traumatic aneurysm volume measurement
+		*	Traumatic aneurysm findings type
+		*	Venous sinus injury morphology type
+		*	Venous sinus injury anatomic site
+		*	Midline shift supratentorial measurement
+		*	Midline shift supratentorial displacement type
+		*	Cisternal compression laterality type
+		*	Cisternal compression anatomic site
+		*	Ventricle - fourth shift or effacement measurement
+		*	Ventricle - fourth shift or effacement displacement type
+		*	Ventricle - fourth shift or effacement findings type
+		*	Contusion anatomic site
+		*	Contusion volume measurement
+		*	Intracerebral hemorrhage hemorrhagic component volume measurement
+		*	Intracerebral hemorrhage entire lesion volume measurement
+		*	Intracerebral hemorrhage findings type
+		*	Intraventricular hemorrhage anatomic site
+		*	Intraventricular hemorrhage ventriculomegaly (acute hydrocephalus) indicator
+		*	Intraventricular hemorrhage volume measurement
+		*	Intraventricular hemorrhage pattern type
+		*	Diffuse axonal injury and traumatic axonal injury lesions number
+		*	Penetrating injuries deepest extent penetrated anatomic site
+		*	Penetrating injuries anatomic site
+		*	Cervicomedullary junction or brainstem injury type
+		*	Edema anatomic site
+		*	Edema extent type
+		*	Edema findings type
+		*	Edema volume measurement
+		*	Brain swelling anatomic site
+		*	Ischemia or infarction or hypoxic-ischemic injury anatomic site
+		*	Ischemia or infarction or hypoxic-ischemic injury extent type
+		*	Ischemia or infarction or hypoxic-ischemic injury, acute or subacute findings type
+		*	Ischemia or infarction or hypoxic-ischemic injury pattern type
+		*	Brain atrophy or encephalomalacia anatomic site
+		*	Brain volumetric analysis measurement
+
+		-->
+
+	</section>
+	<section data-section-name="Impression">
+		<header class="level1">Impression</header>
+		<p>
+			<textarea id="T284_42" name="Impression"> </textarea>
+		</p>
+	</section>
+</body>
+</html>
